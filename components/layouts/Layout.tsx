@@ -19,7 +19,7 @@ export const Layout: FC<Props> = ({ children, title }) => {
                 <meta name='keywords' content={`${title},pokemon,pokedex`} />
                 <meta property="og:title" content={`Informacion sobre ${title}`} />
                 <meta property="og:description" content={`Esta es una pagina para ver a ${title} junto con su forma shiny`} />
-                <meta property="og:image" content={`${origin}imgs/banner.png`} />
+                <meta property="og:image" content={`${origin}/imgs/banner.png`} />
             </Head>
 
             <Navbar />
